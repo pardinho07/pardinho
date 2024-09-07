@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você Decide o Futuro da IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .caixa-principal {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .caixa-perguntas {
+            margin-bottom: 20px;
+            color: #555;
+            font-size: 18px;
+        }
+
+        .caixa-alternativas {
+            margin-bottom: 20px;
+        }
+
+        .caixa-alternativas button {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .caixa-alternativas button:hover {
+            background-color: #0056b3;
+        }
+
+        .caixa-resultado {
+            color: #333;
+            font-size: 18px;
+        }
+
+        .texto-resultado {
+            margin: 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caixa-principal">
+        <h1>Você Decide o Futuro da IA</h1>
+        <div class="caixa-perguntas">
+            Estudantes, vocês já sabem quais são as perguntas que irão nortear sua missão?
+        </div>
+        <div class="caixa-alternativas">
+            <button>Sim, eu já sei, estou cheio de ideias</button>
+            <button>Não, estou ajustando algumas coisas</button>
+        </div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado">
+                E o seu texto final, já está pronto? Ainda há muita coisa a ser feita.
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
